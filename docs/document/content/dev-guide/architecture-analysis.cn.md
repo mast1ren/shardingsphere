@@ -46,7 +46,7 @@ ShardingSphere 主要解决以下业务问题：
 | SQL 解析 | ANTLR4 | 4.x | SQL 语法解析与 AST 生成 |
 | 查询优化 | Apache Calcite | 1.40.0 | SQL 联邦查询优化与执行计划 |
 | 网络通信 | Netty | 4.2.9.Final | Proxy 模式高性能网络通信 |
-| RPC | gRPC | 1.75.0 | 分布式节点间通信 |
+| RPC | gRPC | 1.75.0 | Etcd 客户端传递依赖（jetcd-core） |
 | 序列化 | Protobuf | 3.25.8 | 数据序列化 |
 | JSON 处理 | Jackson | 2.16.1 | 配置文件解析 |
 | 日志 | SLF4J | 2.0.17 | 日志门面 |
@@ -54,6 +54,9 @@ ShardingSphere 主要解决以下业务问题：
 | 代码生成 | Lombok | 1.18.42 | 减少样板代码 |
 | 测试框架 | JUnit 5 | 5.14.1 | 单元测试 |
 | Mock 框架 | Mockito | 4.11.0 | 测试用 Mock |
+| 表达式引擎 | Groovy | 4.0.22 | 分片算法内联表达式求值 |
+| 缓存 | Caffeine | 2.9.3 | SQL 解析结果缓存、脚本缓存 |
+| 字节码增强 | ByteBuddy | 1.17.7 | Agent 可观测性字节码织入 |
 
 ### 基础设施依赖
 
