@@ -385,8 +385,8 @@ ChannelAttrInitializer          ← 初始化通道属性（数据库类型等�
     │
     ▼
 PacketCodec                     ← 数据库协议编解码
-    │                             （MySQL: 3字节长度+序列号+载荷）
-    │                             （PostgreSQL: 1字节类型+4字节长度+载荷）
+    │                             （MySQL: 3字节长度 + 序列号 + 载荷）
+    │                             （PostgreSQL: 1字节类型 + 4字节长度 + 载荷）
     ▼
 FrontendChannelLimitationInboundHandler  ← 最大连接数限制检查
     │
