@@ -136,7 +136,7 @@ ShardingSphere 提供的核心功能模块如下：
 
 #### 2.3.1 MyCat
 
-[MyCat](http://www.mycat.org.cn/) 是基于 Java 的开源数据库中间件，从 Cobar 演化而来，是国内较早的数据库分片代理方案。
+[MyCat](https://github.com/MyCATApache/Mycat2) 是基于 Java 的开源数据库中间件，从 Cobar 演化而来，是国内较早的数据库分片代理方案。
 
 | 调研维度 | 能力评估 |
 |---------|---------|
